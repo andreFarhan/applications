@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>UNPAM | HOME</title>
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-	<h1>Selamat Datang</h1>
+@extends('layouts.main')
 
+@section('title')
+  <title>UNPAM BLOG | HOME</title>
+@endsection
 
-	<script src="js/script.js"></script>
-</body>
-</html>
+@section('container')
+  <h1>Halaman Home</h1>
+@endsection
